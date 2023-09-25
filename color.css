@@ -4,5 +4,5 @@ p2 {
 
 html {
 	background-image: url("./free_stock_photo-buffalo.jpg");
-	background-size: 100%;
+	background-size: cover;
 }
