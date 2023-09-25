@@ -2,6 +2,7 @@ p2 {
 	color: rgba(255, 0, 0, 0);
 }
 
-main {
+body {
 	background-image: url("./free_stock_photo-buffalo.jpg");
+	background-size: 100%;
 }
