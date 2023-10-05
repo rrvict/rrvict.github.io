@@ -2,16 +2,16 @@
 <html lang="en-CA">
 	<head>
 		<title>About Me</title>
+		<link rel="stylesheet" href="./color.css" />
 	</head>
 	
 	<body>
-		<nav>
-			<ul>
-			<li> <a href="second.html"> Go to Second Page - Other Info. </a> </li>
-			<li> <a href="third.html"> Go to Third Page - Planet Data </a> </li>
-			<li> <a href="fourth.html"> Go to Fourth Page - CSS </a> </li>
-			</ul>
-		</nav>
+		<div class="flex-container">
+			<div> <button class="selected-button" onclick="parent.location='./index.html'">  Main Page </button> </div>
+			<div> <button onclick="parent.location='./second.html'"> Second Page </button> </div>
+			<div> <button onclick="parent.location='./third.html'"> Third Page </button> </div>
+			<div> <button onclick="parent.location='./fourth.html'"> Fourth Page </button> </div>
+		</div>
 
 		<header>
 			<h1>About Me</h1>
@@ -29,8 +29,5 @@
 				<a = href="https://www.reddeeradvocate.com/news/city-of-red-deer-prepares-for-possible-transit-strike/"> City of Red Deer prepares for possible transit strike - Red Deer Advocate </a>
 			</article>
 		</main>
-		
-		<footer>
-		</footer>
 	</body>
 </html>
