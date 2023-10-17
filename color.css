@@ -1,0 +1,46 @@
+p2 {
+	color: rgba(0, 0, 0, 0);
+}
+
+.buffalo-pic {
+	background-image: url("./free_stock_photo-buffalo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.selected-button {
+	border: solid;
+	border-color: orange;
+	background-color: black;
+	color: white;
+}
+
+button {
+	border: solid;
+	border-color: black;
+	border-radius: 12px;
+	padding: 5px 10px;
+  
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	transition-duration: 0.5s;
+}
+
+button:hover {
+	border: solid;
+	background-color: orange;
+	color: white;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: left;
+	grid-area: navigation;
+}
+
+.flex-container > div {
+	text-align: center;
+	font-size: 18px;
+	padding-left: 5px;
+}
